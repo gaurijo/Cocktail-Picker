@@ -4,7 +4,6 @@ RSpec.describe Cocktail do
   it "returns a cocktail name, ingredients, and instructions on how to make" do 
     response = JSON.parse(File.read('spec/fixtures/marg.json'), symbolize_names: true)
     cocktail = Cocktail.new(response)
-
     expect(cocktail).to be_a(Cocktail)
     expect(cocktail.name).to eq("Margarita")
     expect(cocktail.ingredient1).to eq("Tequila")

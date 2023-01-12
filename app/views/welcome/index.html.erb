@@ -1,0 +1,24 @@
+<div align="center">
+  <h1>Welcome to the Cocktail Picker</h1>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div align="center" class="cocktail-form">
+  <p>Get started by searching for a Cocktail by name:</p>
+    <%= form_tag '/cocktails', method: :get do %>
+      <div align="center" class="cocktail-search">
+        <%= text_field_tag :cocktail %>
+        <%= submit_tag "Search" %>
+        </div align="center">
+        <% end %>
+      </div align="center">
+

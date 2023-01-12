@@ -1,0 +1,19 @@
+<%= form_tag '/cocktails', method: :get do %>
+  <br>
+  <br>
+  <div align="center">
+    <%= image_tag "#{@cocktail.image}"%>
+  </div>
+  <div align="center" class="search-box">
+  <h2>You chose the <%=@cocktail.name%>!</h2> 
+  <h3>Ingredients:</h3>
+    <p><%=@cocktail.ingredient1%>, <%=@cocktail.ingredient2%>, <%=@cocktail.ingredient3%>, <%=@cocktail.ingredient4%></p>
+  </div>
+  <br>
+  <h3>How to Make It:</h3> 
+    <p><%=@cocktail.instructions%></p>
+<% end %>
+
+
+
+  
