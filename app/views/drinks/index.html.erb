@@ -1,0 +1,8 @@
+<%= form_tag '/drinks', method: :get do %>
+  <div align="center" class="search-box">
+  <h1>Here Are Some Recommendations:</h1>
+    <%@drinks.each do |drink|%>
+      <h4><%=drink.name%></h4>
+    <% end %>
+  </div>
+  <% end %>
