@@ -11,9 +11,9 @@ RSpec.describe 'as a visitor' do
       click_button 'Search'
 
       expect(current_path).to eq(cocktails_path)
-      expect(page).to have_content("You chose a Margarita!")
+      expect(page).to have_content("You chose the Margarita!")
       expect(page).to have_content("Ingredients:")
-      expect(page).to have_content("How to Make:")
+      expect(page).to have_content("How to Make It:")
     end
   end
 end
