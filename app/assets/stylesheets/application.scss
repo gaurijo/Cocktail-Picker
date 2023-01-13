@@ -13,6 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+   height: 768px;
+   background-size: contain;
+   background-color: #c0d9ca;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   overflow: auto;
+ }
 .search-box {
   background: white;
   padding: 1%;
@@ -43,12 +53,3 @@
   transform: translate(-50%, -50%);
 }
 
-body {
-  height: 768px;
-  background-size: contain;
-  background-color: #ffffff;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  overflow: auto;
-}

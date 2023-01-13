@@ -1,8 +1,11 @@
+<header align="center">
+  <%= button_to "Home", root_path, method: :get %>
+</header>
 <%= form_tag '/drinks', method: :get do %>
-  <div align="center" class="search-box">
+  <div align="center">
   <h1>Here Are Some Recommendations:</h1>
     <%@drinks.each do |drink|%>
-      <h4><%=drink.name%></h4>
+      <h4> <%=drink.name %></h4>&#127864;
     <% end %>
   </div>
   <% end %>
