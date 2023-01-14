@@ -1,0 +1,7 @@
+<%= form_with model: @user do |form| %>
+  <%= form.label :user_username, 'Username:' %>
+  <%= form.text_field :username %>
+  <%= form.label :user_password, 'Password:' %>
+  <%= form.password_field :password %>
+  <%= form.submit 'Create User' %>
+<% end %>
