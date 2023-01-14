@@ -1,3 +1,6 @@
+<header align="center">
+  <%= button_to "Home", root_path, method: :get %>
+</header>
 <%= form_tag '/cocktails', method: :get do %>
   <br>
   <br>
@@ -7,7 +10,7 @@
   <div align="center" class="search-box">
   <h2>You chose the <%=@cocktail.name%>!</h2> 
   <h3>Ingredients:</h3>
-    <p><%=@cocktail.ingredient1%>, <%=@cocktail.ingredient2%>, <%=@cocktail.ingredient3%>, <%=@cocktail.ingredient4%></p>
+    <p><%=@cocktail.measurement1%> <%=@cocktail.ingredient1%>, <%=@cocktail.measurement2%> <%=@cocktail.ingredient2%>, <%=@cocktail.measurement3%> <%=@cocktail.ingredient3%>, <%=@cocktail.ingredient4%></p>
   </div>
   <br>
   <h3>How to Make It:</h3> 

@@ -21,4 +21,15 @@
         </div align="center">
         <% end %>
       </div align="center">
-
+<br>
+<div align="center" class="liquor-form">
+  <p>Not sure what to search?</p> 
+  <p>Enter a liquor type or ingredient and we will recommend some cocktails for you:</p>
+  <p>(ie.'vodka')</p>
+    <%= form_tag '/drinks', method: :get do %>
+      <div align="center" class="liquor-search">
+      <%= text_field_tag :liquor %>
+      <%= submit_tag "Show me some cocktails!" %>
+      </div align="center">
+      <% end %>
+      </div align="center">

@@ -10,6 +10,7 @@ RSpec.describe Cocktail do
     expect(cocktail.ingredient2).to eq("Triple sec")
     expect(cocktail.ingredient3).to eq("Lime juice")
     expect(cocktail.ingredient4).to eq("Salt")
+    expect(cocktail.measurement1).to eq("1 1/2 oz ")
     expect(cocktail.instructions).to eq("Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.")
   end
 end
