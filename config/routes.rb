@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   resources :cocktails, only: [:index]
   resources :drinks, only: [:index]
+  resources :users, only: [:new, :create]
 end
