@@ -5,4 +5,7 @@ Rails.application.routes.draw do
   resources :cocktails, only: [:index]
   resources :drinks, only: [:index]
   resources :users, only: [:new, :create]
+  get '/login', to: 'users#login_form'
+  post '/login', to: 'users#login'
+  post '/logout', to: 'users#logout'
 end

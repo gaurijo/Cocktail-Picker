@@ -1,6 +1,8 @@
 <div align="center">
-  <h1>Welcome to the Cocktail Picker</h1>
-  <%= link_to "Register as a User", new_user_path %>
+  <h1>&#127864; Welcome to the Cocktail Picker &#127864;</h1>
+  <h6>  <%= link_to "Register as a User", new_user_path %>  (Under Construction)
+  <h6>  <%= link_to "I already have an account", login_path %>  (Under Construction)
+</h6>
 </div>
 <br>
 <br>
@@ -24,9 +26,9 @@
       </div align="center">
 <br>
 <div align="center" class="liquor-form">
-  <p>Not sure what to search?</p> 
+  <h3>Not sure what you're in the mood for?</h3> 
   <p>Enter a liquor type or ingredient and we will recommend some cocktails for you:</p>
-  <p>(ie.'vodka')</p>
+  <p>(ie.'vodka', or 'lemon')</p>
     <%= form_tag '/drinks', method: :get do %>
       <div align="center" class="liquor-search">
       <%= text_field_tag :liquor %>

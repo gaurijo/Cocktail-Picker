@@ -13,15 +13,11 @@ class UsersController < ApplicationController
     end
   end
 
-  # def login
-  #   user = User.find_by(username: params[:username])
-  #   if user
-  #     flash[:success] = "Welcome, #{user.username}!"
-  #     redirect_to root_path
-  #   else 
-  #     flash[:error] = "Try again"
-  #   end
-  # end
+  def login
+    user = User.find_by(username: params[:username])
+    flash[:success] = "Welcome back!"
+    redirect_to root_path 
+  end
 
   private 
   def user_params 
