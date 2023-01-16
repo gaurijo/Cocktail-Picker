@@ -15,15 +15,16 @@
  */
 
 
- body {
-   height: 768px;
-   background-size: contain;
-   background-color: #c0d9ca;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center;
-   overflow: auto;
- }
+body {
+  height: 768px;
+  background-size: contain;
+  background-color: #c0d9ca;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .search-box {
   background: white;
   padding: 1%;
@@ -55,13 +56,13 @@
 }
 
 .bg-image {
-  background-image: url("https://cdn.pixabay.com/photo/2018/01/29/16/21/summer-3116499_1280.jpg"); 
+  background-image: url("https://img.freepik.com/free-vector/colorful-summer-pattern_23-2148609016.jpg?w=1380&t=st=1673856267~exp=1673856867~hmac=703f12aab1d5a87347043037fa5a9f26e682cdd172d8bf1f63aeae9c8a1fcd2f");
   background-repeat: no-repeat;
   overflow: auto;
-  height: 768px;
-  background-size: contain;
+  height: 100%;
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 #home {
