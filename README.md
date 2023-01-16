@@ -9,7 +9,11 @@ Do you want to try new cocktails but don't know where to begin? Have you been me
 <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/><br>
 
 ## :cocktail: Local server demo:
-https://user-images.githubusercontent.com/103534307/212591136-110ddb9a-56a8-4f99-8a40-d308ae49c01b.mp4
+
+
+https://user-images.githubusercontent.com/103534307/212751128-f2e1c3cc-8f9c-4feb-96e4-b3a589cdef68.mp4
+
+
 
 ## :cocktail: API Endpoints:
 This app consumes two endpoints from `TheCocktailDB` (docs: https://www.thecocktaildb.com/api.php)
@@ -32,6 +36,7 @@ This app consumes two endpoints from `TheCocktailDB` (docs: https://www.thecockt
             "strMeasure1": "1 1/2 oz ",
             "strMeasure2": "1/2 oz ",
             "strMeasure3": "1 oz "
+        }...]
         }
  ```
  ### ALL cocktails by liquor/ingredient 
