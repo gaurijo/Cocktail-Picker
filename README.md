@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/103534307/212591136-110ddb9a-56a8-4f99
 ## :cocktail: API Endpoints:
 This app consumes two endpoints from `TheCocktailDB` (docs: https://www.thecocktaildb.com/api.php)
 
-### ALL cocktails by name
+### cocktail by name
 ``GET `` `www.thecocktaildb.com/api/json/v1/1/search.php?s=${cocktail}`
 
 ```ruby
@@ -34,6 +34,8 @@ This app consumes two endpoints from `TheCocktailDB` (docs: https://www.thecockt
             "strMeasure3": "1 oz "
         }
  ```
+ ### ALL cocktails by liquor/ingredient 
+ 
 ``GET `` `www.thecocktaildb.com/api/json/v1/1/search.php?i=${liquor_or_ingredient}`
 
 ```ruby
