@@ -107,6 +107,6 @@ This app consumes two endpoints from `TheCocktailDB` (docs: https://www.thecockt
 ## 	:fast_forward: Plans for future iterations:
 - Update login and logout features to be accessible on all pages
 - Implement a user dashboard to save user's favorite cocktails
-- When user utilizes the search by liquor/ingredient function, have the recommendations link to each cocktail's show page
+- Have drink recommendations link to each cocktail's show page
 
 
